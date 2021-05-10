@@ -1,4 +1,4 @@
-import request, { ROOT } from "./fetchWrapper";
+import request, { ROOT } from "./index";
 
 export const fetchBooks = async () => {
   const res = (await request(`${ROOT}/book`)).json();

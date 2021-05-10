@@ -19,7 +19,11 @@ function App() {
         {isFetching ? (
           <p>Loading...</p>
         ) : (
-          data?.docs.map(({ id, name }) => <p key={name}>{name}</p>)
+          <div className="list">
+            {data?.docs.map(({ id, name }) => (
+              <li key={name}>{name}</li>
+            ))}
+          </div>
         )}
       </header>
     </div>

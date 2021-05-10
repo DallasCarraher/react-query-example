@@ -28,8 +28,10 @@ p {
   font-size: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.list {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
 
 @keyframes App-logo-spin {

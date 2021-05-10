@@ -13,9 +13,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <code>react-query fetching pattern</code>
         <h2>LOTR Books</h2>
+        <img src={logo} className="App-logo" alt="logo" />
         {isFetching ? (
           <p>Loading...</p>
         ) : (

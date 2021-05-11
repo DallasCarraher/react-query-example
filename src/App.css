@@ -24,6 +24,27 @@
   color: white;
 }
 
+.Msw-toggle {
+  position: absolute;
+  left: 8%;
+  top: 5%;
+  border: none;
+  border-radius: 20px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.Msw-toggle:hover {
+  background-color: #ffa200;
+  transition: ease-in-out 0.2s;
+}
+
+.Msw-toggle-label {
+  position: absolute;
+  left: 9%;
+  top: 8%;
+}
+
 p {
   font-size: 20px;
 }

@@ -5,7 +5,9 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Decorator from "./Decorator";
 
-if (process.env.NODE_ENV === "development") {
+const override = localStorage.getItem("useLiveApi");
+
+if (override && process.env.NODE_ENV === "development") {
   const { worker } = require("./mocks/browser");
   worker.start();
 }
